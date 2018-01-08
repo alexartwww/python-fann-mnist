@@ -5,7 +5,6 @@ This project tests FANN2 with MNIST DATABASE. For python 2.7
 # Quickstart
 
 ```#!bash
-
 sudo apt-get install libfann2 python-fann2
 
 git clone https://github.com/alexartwww/python-fann-mnist.git
@@ -33,7 +32,6 @@ python ./test.py
 Best result I've got:
 
 ```#!bash
-
 $ python ./test.py net/2018-01-08-22-16-44-425055.net
 Opening net: net/2018-01-08-22-16-44-425055.net
 Reading labels
@@ -44,7 +42,6 @@ Error rate = 12.86%
 3 layers:
 
 ```#!python
-
 layers = [784 260 10]
 desired_error = 0.001
 max_iterations = 60
