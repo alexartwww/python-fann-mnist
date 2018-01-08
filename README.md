@@ -42,7 +42,7 @@ Error rate = 12.86%
 3 layers:
 
 ```#!python
-layers = [784 260 10]
+layers = [784, 260, 10]
 desired_error = 0.001
 max_iterations = 60
 ```
