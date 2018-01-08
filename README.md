@@ -1,6 +1,6 @@
 # Python FANN2 MNIST DATABASE test
 
-This project tests FANN2 with MNIST DATABASE
+This project tests FANN2 with MNIST DATABASE. For python 2.7
 
 # Quickstart
 
@@ -22,6 +22,10 @@ gunzip source/t10k-images-idx3-ubyte.gz
 
 wget http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz -O source/t10k-labels-idx1-ubyte.gz
 gunzip source/t10k-labels-idx1-ubyte.gz
+
+python ./transform.py
+python ./train.py
+python ./test.py
 ```
 
 # Project Goals
