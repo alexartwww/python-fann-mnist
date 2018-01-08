@@ -13,13 +13,13 @@ cd python-fann-mnist
 wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz -O source/train-images.idx3-ubyte.gz
 gunzip source/train-images.idx3-ubyte.gz
 
-wget http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz -O source/train-labels-idx1-ubyte.gz
+wget http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz -O source/train-labels.idx1-ubyte.gz
 gunzip source/train-labels-idx1-ubyte.gz
 
-wget http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz -O source/t10k-images-idx3-ubyte.gz
+wget http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz -O source/t10k-images.idx3-ubyte.gz
 gunzip source/t10k-images-idx3-ubyte.gz
 
-wget http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz -O source/t10k-labels-idx1-ubyte.gz
+wget http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz -O source/t10k-labels.idx1-ubyte.gz
 gunzip source/t10k-labels-idx1-ubyte.gz
 
 python ./transform.py
