@@ -1,6 +1,6 @@
 # Python FANN2 MNIST DATABASE test
 
-This project tests
+This project tests FANN2 with MNIST DATABASE
 
 # Quickstart
 
