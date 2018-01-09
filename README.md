@@ -46,3 +46,5 @@ layers = [784, 260, 10]
 desired_error = 0.001
 max_iterations = 60
 ```
+
+You awesome!
